@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Times";
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+h1{
+  text-align: center;
+}
+
+header {
+  width: 100%;
+  background-color: #292828;
+}
+
+
+.header{
+  display: flex;
+  justify-content: space-between;
+ }
+
+ .header-nav{
+   padding: 0.8em;
+   font-size: 1.5em;
+   word-spacing: 0.5em;
+ }
+
+ .first-block{
+   font-size: 1.2em;
+   display: flex;
+   justify-content: center;
+ }
+
+@media (min-width:700px) {
+ .first-block-item{
+   width: 600px;
+   display: flex;
+   justify-content: space-between;
+ }}
+
+ @media (max-width:699px) {
+  .first-block-item{
+    width: 100%;
+  }}
+
+
+ .img-work{
+   padding: 10px;
+   border-radius: 50%;
+ }
+
+
+@media (min-width:700px) {
+
+ .second-block{
+   display: flex;
+   justify-content: space-between;
+   padding: 1em;
+ }}
+
+ @media (max-width:699px) {
+
+  .second-block{
+    padding: 0.5em;
+    width: 100%;
+  }}
+
+@media (min-width:700px) {
+ .second-block-item{
+   width: 50%;
+ }}
+
+ @media (max-width:699px) {
+  .second-block-item{
+    width: 100%;
+  }}
+
+ .topic{
+   text-decoration: underline;
+   font-size: 1.3em;
+ }
+
+ footer{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   width: 100%;
+   background-color: #292828;
+   color: white;
+   padding: 0.8em 0em;
+ }
