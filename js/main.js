@@ -1,9 +1,24 @@
 'use strict';
 
-let yourName = prompt('What is your name?', '');
- if(yourName == 'Alex'){
-  alert(`Hello ${yourName}`);
+let login = prompt('Кто там?')
+if (login == 'Админ') {
+  
+  let pass = prompt('Какой пароль?')
+  if (pass == 'Я главный') {
+    alert ('Здравствуйте');
+  }
+  else if (pass == null) {
+    alert ('Отмена');
+  }
+  else {
+    alert ('Не правильный пароль');
+  }
 }
- else {
-  alert(`Fuck You, ${yourName}`);
+
+else if (login == null) {
+  alert ('Отмена');
+}
+
+else {
+  alert ('я вас не знаю');
 }
